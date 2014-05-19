@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Browse Contests | Unico</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-lightbox.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/bootstrap-lightbox.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
+    </script>
+    <script>
+    $(document).ready(function() {
+        $('.carousel').carousel();
+    });
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+    <!-- Fixed navbar -->
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="front.html">
+                    <img src="assets/img/logo.png" width="139px" height="41px">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navmargin">
+                    <li class="dropdown">
+                        <a href="front.html"><i class="fa fa-folder-open"></i> My Contests</a>
+
+
+
+                    </li>
+                    <li class="dropdown">
+                        <a href="contests.html"><i class="fa fa-globe"></i> Browse Contests</a>
+
+
+
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-right navmargin">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope-o"></i></a>
+                        <div class="dropdown-menu login-form">
+                            <form class="form-horizontal" role="form">
+                                <h4>Private messages</h4>
+                                <hr>
+                                <p>No new messages.</p>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="dropdown ">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bullhorn"></i></a>
+                        <div class="dropdown-menu login-form">
+                            <form class="form-horizontal" role="form">
+                                <h4>Notifications</h4>
+                                <hr>
+                                <p>No new notifications.</p>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+                        <div class="dropdown-menu login-form">
+                            <form class="form-horizontal" role="form">
+                                 <img src="assets/img/students/avatar.jpg" class="img-circle" alt="" width="50px" height="50px" /> <b>Daian Man</b>
+                                <hr>
+
+                               <p class="howitworks"><i class="fa fa-cog"> </i> Account Settings</p>
+                                <a href="user.html">
+                                    <p class="howitworks"><i class="fa fa-list-alt"> </i> Profile</p>
+                                </a>
+
+                                 <a href="index.html"><p class="howitworks"><i class="fa fa-power-off"> </i> Log Out</p></a>
+                                <hr>
+                                <a href="frontbuss.html">
+                                    <p class="howitworks"><i class="fa fa-users"> </i> Switch to Company</p>
+                                </a>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="contest-bar">
+        <div class="container">
+            <div class="row">
+                <br>
+                <br>
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                              
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Architecture</a>
+                                        </li>
+                                        <li><a href="#">Design</a>
+                                        </li>
+                                        <li><a href="#">Engineering</a>
+                                        </li>
+                                       
+                                        <li><a href="#">Finance/Accounting</a>
+                                        </li>
+                                       
+                                        <li><a href="#">Marketing</a>
+                                        </li>
+                                        <li><a href="#">...</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filters<b class="caret"></b></a>
+                                   
+                                </li>
+
+                            </ul>
+
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </form>
+                           
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <section id="desc" name="desc"></section>
+    <!-- INTRO WRAP -->
+    <div id="intro">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                         <br>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <b>6h left</b>
+                            </div>
+                        </div>
+                        <img src="assets/img/company/1.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Apple - "Go to market brainstorm"</h3>
+                            <p>As part of their continuous expansion program through the emerging Asian markets, Apple is searching for a new and unique way to raise awareness in the Asia.
+</p>
+                            <p><a href="terms.html" class="btn btn-primary" role="button">Show More <b>(click!)</b> </a>  <a href="#" class="btn btn-default pull-right" role="button">200$</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <b>1d, 2h left</b>
+                            </div>
+                        </div>
+                       <img src="assets/img/company/7.jpeg" alt="...">
+                        <div class="caption">
+                            <h3>Adobe - "Visual campaign strategy for 2014 Q4"</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lobortis sagittis sodales. Integer mi enim, viverra ac est pharetra, dignissim eleifend purus.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Show More</a>  <a href="#" class="btn btn-default pull-right" role="button">400$</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
+                                <b>4d, 3h left</b>
+                            </div>
+                        </div>
+                        <img src="assets/img/company/8.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Chevrolet - "Vivamus volutpat dui"</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor non sapien vel interdum. Donec justo dui, luctus nec volutpat a, ullamcorper.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Show More</a>  <a href="#" class="btn btn-primary pull-right" role="button" style="background-color:#ef4d28; border-color:#ef4d28">RECOMMENDATION</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+           <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <b>1d, 2h left</b>
+                            </div>
+                        </div>
+                        <img src="assets/img/company/4.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Pandora - "Vel amet congue"</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu convallis justo. Suspendisse potenti. Fusce in risus rhoncus, ornare magna accumsan, posuere.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Show More</a>  <a href="#" class="btn btn-primary pull-right" role="button" style="background-color:#ef4d28; border-color:#ef4d28">RECOMMENDATION</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                         <br>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <b>1d, 12h left</b>
+                            </div>
+                        </div>
+                        <img src="assets/img/company/9.png" alt="...">
+                        <div class="caption">
+                            <h3>lateDeals - "Accumsan arcu"</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus elit vitae dignissim cursus. Phasellus est lectus, tempus convallis volutpat vel, pulvinar.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Show More</a>  <a href="#" class="btn btn-default pull-right" role="button">50$</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <br>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                                <b>6d left</b>
+                            </div>
+                        </div>
+                        <img src="assets/img/company/11.jpg" alt="...">
+                        <div class="caption">
+                            <h3>Turkish Airlines - "Sapien lacus volutpat"</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu convallis justo. Suspendisse potenti. </p>
+                            <p><a href="#" class="btn btn-primary" role="button">Show More</a>  <a href="#" class="btn btn-default pull-right" role="button">150$</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+        </div>
+        <!--/ .container -->
+    </div>
+    </div>
+
+
+    <div id="c">
+        <div class="container centered">
+            <p>Copyright Unico 2014
+            </p>
+
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script>
+    $('.carousel').carousel({
+        interval: 2000
+    })
+    </script>
+</body>
+
+</html>
